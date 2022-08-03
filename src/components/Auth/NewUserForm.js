@@ -31,6 +31,26 @@ const NewUserForm = ({onSubmit, onChange, newUser}) => {
             placeholder={"Last Name"}
             onChange={handleChange}
           />
+          <Input
+            name="age" 
+            id="age" 
+            value={newUser.age}
+            placeholder={"Age"}
+            onChange={handleChange}
+          />
+          <Input
+            name="weight" 
+            id="weight" 
+            value={newUser.weight}
+            placeholder={"Weight"}
+            onChange={handleChange}
+          /><Input
+          name="weightGoal" 
+          id="weightGoal" 
+          value={newUser.weightGoal}
+          placeholder={"Weight Goal"}
+          onChange={handleChange}
+        />
         </InlineInputContainer>
         <InlineInputContainer>
           <Input

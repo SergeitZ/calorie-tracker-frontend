@@ -38,7 +38,7 @@ const login = async (data) => {
             profile: {},
             roles: res.data.roles,
         })
-        navigate("/");
+        navigate("/athletes");
     } catch (err) {
         console.error(err.response ? err.response.data : err.message)
     }

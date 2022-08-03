@@ -14,8 +14,10 @@ const Register = (props) => {
         password: "",
         fName: "",
         lName: "",
+        age: "",
+        weight: "",
+        weightGoal: "",
         isMember: false,
-        licenseNumber: ""
     })
 
     const navigate = useNavigate();
