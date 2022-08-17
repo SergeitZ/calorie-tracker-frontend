@@ -86,7 +86,7 @@ const Profile = (props) => {
           width: '100%',
           maxWidth: '900px'
         }}>
-          {displayRelationButton()}
+          {/* {displayRelationButton()} */}
           <Button style={{
             width: 'auto',
             color: '#F1F1F1',
@@ -136,7 +136,7 @@ const Profile = (props) => {
       minHeight: '100vh',
     }}>
       {loading ? (
-        <Spinner /> 
+        <Fragment />
       ) : 
         displayProfile()
       }

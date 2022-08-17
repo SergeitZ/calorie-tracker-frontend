@@ -5,6 +5,8 @@ import NavBar from '../NavBar/NavBar';
 // import components to show
 import Register from '../Auth/Register';
 import Login from '../Auth/Login';
+import Athlete from '../Athletes/Athlete';
+import Profile from '../Profile/Profile';
 
 const AppRouter = () => {
     return (
@@ -16,6 +18,8 @@ const AppRouter = () => {
                 <Route path="/" element={<Home/>} />
                 <Route path="/signup" element={<Register/>}/>
                 <Route path="/login" element={<Login/>}/>
+                <Route path="/athlete" element={<Athlete/>}/>
+                <Route path="/athletes/:athId" element={<Profile />} />
             </Routes>
 
         </div>
